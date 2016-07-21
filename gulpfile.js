@@ -3,6 +3,9 @@ var argv = require('yargs').argv;
 var git = require('gulp-git');
 var runSequence = require('run-sequence');
 
+gulp.task('default',function() {
+});
+
 gulp.task('init', function() {
   console.log(argv.m);
 });
